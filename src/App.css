@@ -1,0 +1,23 @@
+.backgroundColours {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0px 10px;
+}
+.colorOp {
+	width: 15px;
+	height: 15px;
+	margin: 5px;
+	border-radius: 50%;
+	background-color: blanchedalmond;
+	cursor: pointer;
+}
+.pelleteActive {
+	border: 2px solid rgb(87, 177, 255);
+}
+
+@media only screen and (max-width: 570px) {
+	.abcc {
+		padding: 0px !important;
+	}
+}
